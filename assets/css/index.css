@@ -1,0 +1,41 @@
+html, body, .capa{
+  height: 100%;
+}  
+#site-header{
+  background: url(../../assets/img/fundo.jpg) 50% 50% no-repeat fixed #222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 216px 0px !important;
+  position: relative;
+}
+#amd-brand{
+  color: #fff;
+  font-weight: 600;
+}
+.home-overlay{
+  background-color: rgba(44,62,80,.3);
+  background-image: url(../../assets/img/pattern.png);
+  background-repeat: repeat;
+  height: 100%;
+  top: 0;
+  z-index: 0; 
+  position: absolute;
+  width: 100%;
+  left: 0;           
+}
+.box{
+  box-shadow: none;
+}
+.image{
+  border-radius: 10px;
+  width: 100%;
+}
+.navbar{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
