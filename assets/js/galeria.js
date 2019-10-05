@@ -4,11 +4,13 @@ $(document).ready(function() {
 })
 
 function loadImages(folder) {
+  console.log("folder: "+folder)
   $.ajax({
     url : folder,
     success: function (data) {
       $(data).find("a").attr("href", function (i, val) {
         if( val.toLowerCase().match(/\.(jpe?g|png|gif)$/) ) { 
+          console.log('val:'+val);
           let image = "<img src='"+val+"'>";
           addImageToGallery(image);
         } 
