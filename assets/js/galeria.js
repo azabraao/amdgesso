@@ -1,6 +1,6 @@
 $(document).ready(function() {
   let folder = document.querySelector('[data-scriptGaleria]').dataset.scriptgaleria;
-  loadImages(`/img/galeria/${folder}`);
+  loadImages(`assets/img/galeria/${folder}/`);
 })
 
 function loadImages(folder) {
