@@ -215,31 +215,29 @@
     <div class="has-text-centered">AMD Gesso®</div>
   </footer>
 </body>
-
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
 <script>
-  window.fbAsyncInit = function() {
+  window.fbAsyncInit = function () {
     FB.init({
-      appId            : '2563901150552429',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v5.0'
+      xfbml: true,
+      version: 'v5.0'
     });
-      
-    FB.CustomerChat.show(true);
-    FB.CustomerChat.showDialog();
   };
-</script>
-<script async defer src="https://connect.facebook.net/pt_BR/sdk.js"></script>
 
-<script>
-  (function(d, s, id) {
+  (function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js";
+    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat" attribution=setup_tool page_id="721252387929996" theme_color="#0084ff"
+  logged_in_greeting="Olá! Como podemos ajudar?" logged_out_greeting="Olá! Como podemos ajudar?">
+</div>
+
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
 
