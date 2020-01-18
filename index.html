@@ -224,6 +224,9 @@
       xfbml            : true,
       version          : 'v5.0'
     });
+      
+    FB.CustomerChat.show(true);
+    FB.CustomerChat.showDialog();
   };
 </script>
 <script async defer src="https://connect.facebook.net/pt_BR/sdk.js"></script>
@@ -236,10 +239,6 @@
     js.src = "https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-
-  FB.CustomerChat.show(true);
-  FB.CustomerChat.showDialog();
-
 </script>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
