@@ -39,3 +39,26 @@ html, body, .capa{
     right: 0;
     left: 0;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social .social__inside {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.social .social__link {
+
+}
+
+.social .social__link a {
+
+}
+
+.social .social__link a img {
+  width: 30px;
+}
