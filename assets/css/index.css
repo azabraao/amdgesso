@@ -51,14 +51,10 @@ html, body, .capa{
   width: 70px;
 }
 
-.social .social__link {
-
-}
-
-.social .social__link a {
-
-}
-
 .social .social__link a img {
   width: 30px;
+}
+
+.social-comment {
+  max-width: 700px;
 }
