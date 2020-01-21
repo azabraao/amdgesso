@@ -67,3 +67,7 @@
 .icon-keyboard_arrow_left:before {
   content: "\e901";
 }
+
+.gallery img {
+  cursor: pointer;
+}
