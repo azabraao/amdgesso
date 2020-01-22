@@ -75,3 +75,18 @@
 .social-comment {
   max-width: 700px;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social .social__inside {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.social .social__link a img {
+  width: 30px;
+}
