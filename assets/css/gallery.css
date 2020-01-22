@@ -71,3 +71,7 @@
 .gallery img {
   cursor: pointer;
 }
+
+.social-comment {
+  max-width: 700px;
+}
