@@ -58,10 +58,3 @@ html, body, .capa{
 .social-comment {
   max-width: 700px;
 }
-
-.whatsapp-float-btn {
-  position: fixed;
-  right: 25px;
-  bottom: 90px;
-  z-index: 100;
-}
